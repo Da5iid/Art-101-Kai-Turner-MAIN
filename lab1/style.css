@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c2833;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 200%;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul {
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul a {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 0px;
+  color: teal;
+  font-size: 100%;
+}
+
+#content {
+  background-color: #1c2833;
+  width: auto;
+  min-height: 290px;
+  padding: 0px;
+  margin: 0px;
+  /*border: solid 5px grey;*/
+  font-size: 20px;
+}
