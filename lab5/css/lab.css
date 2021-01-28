@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c2833;
+}
+
+canvas {
+  display: block;
+}
+/*
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+  font-family: helvetica;
+  font-size: 200%;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul {
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul a {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 0px;
+  color: teal;
+  font-size: 100%;
+}
+*/
+#content {
+  background-color: #1c2833;
+  width: auto;
+  min-height: 300px;
+  padding-left: 10px;
+  margin: 0px;
+  //border: solid 5px grey;
+  font-size: 20px;
+}
+
+figcaption {
+  font-family: "helvetica";
+  text-indent: 60px;
+  margin-left: 40px;
+  //text-align: center;
+  color: white;
+  font-size: 100%;
+}
+
+pre {
+  font-family: "helvetica";
+  text-indent: 0px;
+  margin-left: 40px;
+  //text-align: center;
+  color: white;
+  font-size: 100%;
+}
+
+img {
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  height: auto;
+  width: 700px;
+
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h6 {
+  margin-bottom: 40px;
+}
+
+p {
+  width: 700px;
+}
