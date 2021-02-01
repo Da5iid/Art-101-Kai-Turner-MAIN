@@ -20,6 +20,7 @@ let year2 = 1989;
 
 let age2 = currentYear - year2;
 
+//printing the stuff to the website.
 document.writeln("User: " + user1 +"<br>");
 document.writeln("Make: " + make1 +"<br>");
 document.writeln("Model: " + model1 +"<br>");
