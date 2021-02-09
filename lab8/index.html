@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+	<meta charset="utf-8">
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 8: Anon Callbacks :(</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<img src="img/anon.png">
 </head>
 <body>
-	<p>Nothing here yet!</p>
-</body>
+	<main>
+		<div id="content">
+			<h1> Lab 8: Anon Functions </h1>
+
+				<p> This lab was an investigation to the magical and confusing world of
+					anonamous functions!</p>
+			<h2> Challenges </h2>
+				<p> Our biggest problem was trying to understand what exacly the fuctions
+					are doing, and why you need all this extra syntax to write a timer. Our
+					best guess is that since you need to define both the function you're
+					passing over, and also the time that it needs to wait before it can
+					actually run that function, you need to format it in this confusing
+					way so that JS knows which is which.</p>
+			<h2> Problems </h2>
+				<p> Initially, things went pretty smooth, copying over the code from the
+					assignment mostly. The problems arrose when we attempted to actually
+					print the values of the functions onto our HTML page. That took a bunch
+					of troubleshooting, but we eventually figured out that if we used the
+					HTML buttons from the last lab, and enclosed each part of the functions
+					in a runCode function, that it would properly connect over. Functions in
+					functions in functions >:3</p>
+			</div>
+
+			<h3>Script Output! (Results)</h4>
+			<p>This is the output of our Javascript! At long last. Click away!</p>
+			<ul>
+				<button onclick="runTest1()">Run Test 1!</button>
+				<button onclick="runTest2()">Run Test 2!</button>
+				<button onclick="runTest3()">Run Test 3!</button>
+				<button onclick="runClear()">Clear Output</button>
+			</ul>
+		<div id="codeOut">
+			<script src="js/lab.js"></script>
+			<p id="output1"></p>
+			<p id="output2"></p>
+			<p id="output3"></p>
+		</div>
+		<footer>Kai Turner - 2021</footer>
+	</body>
 </html>

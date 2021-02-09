@@ -39,10 +39,7 @@ function nameWarp() {
   document.getElementById("output").innerHTML = nameOutput;
 }
 
-
-
 //let userAnswer = (prompt("Pick a number to square root: ")); //prompts the user to input
 //let rooted = sqrRoot(userAnswer);
-
 //console.log("The square root of "+ userAnswer +" is " + rooted);
 //document.writeln("The square root of "+ userAnswer +" is " + rooted)
