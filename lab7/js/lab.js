@@ -10,11 +10,6 @@ function squareRootPrompt() {
 
   console.log(rooted);
 
-//  if(rooted == NaN) {
-//    finalRooted = "not a number.";
-//  }
-// This did not work.
-
   console.log("The square root of "+ userAnswer +" is " + rooted);
   let output =("The square root of "+ userAnswer +" is " + rooted);
 

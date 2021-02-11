@@ -71,7 +71,7 @@ footer {
 }
 
 #content {
-  background-color: #1c2833;
+  /*background-color: #1c2833;*/
   width: auto;
   min-height: 290px;
   padding: 0px;
@@ -93,4 +93,9 @@ footer {
   padding-right: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
+}
+
+#js {
+  position: relative;
+  top: 500;
 }

@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #070707;
+}
+
+img {
+  height: auto;
+  padding-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+p {
+  text-align: center;
+  font-family: "helvetica";
+  padding: 40px;
+  color: gold;
+  font-size: 22px;
+}
+
+button {
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 120px;
+  font-size: 16px;
+  background-color: #8FBC8F;
+  color: white;
+}
+
+footer {
+  font-family: "helvetica";
+  padding: 20px;
+  color: darkgray;
+  font-size: 75%;
+  text-align: center;
+  padding-top: 800px;
+}
+
+.center {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  z-index: 500;
+}
+
+#swagP {
+  position: absolute;
+  display: block;
+  font-family: 'helvetica', cursive;
+  color: gold;
+  padding: 0px;
+  font-size: 128px;
+  margin: 0px;
+  font-style: italic;
+  font-weight: bold;
+  word-wrap: break-word;
+  width: 100%;
+  z-index: 2;
+}
