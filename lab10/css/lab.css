@@ -75,6 +75,28 @@ button {
   color: white;
 }
 
+form {
+  margin-left: 0px;
+  padding: 40px;
+}
+
+#myButton {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 16px;
+  background-color: goldenRod;
+  color: white;
+}
+
+#userName {
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #1c2844;
+  color: white;
+
+}
+
 figcaption {
   font-family: "helvetica";
   text-indent: 60px;
@@ -93,19 +115,18 @@ pre {
 }
 
 img {
-  padding-left: 20px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding: 50px;
+  float: right;
+  margin: 20px;
   height: auto;
-  width: 700px;
+  width: 500px;
+  border: 5px solid pink;
 }
 
 #images {
-
   position: absolute;
   right: 0px;
-  width: 700px;
+  width: 500px;
   padding-left: 20px;
   padding-right: 40px;
   padding-top: 0px;

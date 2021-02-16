@@ -5,14 +5,34 @@ Both have some supporting functions, not to be used by the HTML buttons.
 */
 console.log("JS has loaded!");
 
-//Primary function called by the HTML button.
+//Primary function called by the scromble HTML button. Used with the "prompt" version.
 function runScromble() {
   let name = getUsername();
   console.log(name);
   scromble(name)
 }
 
-//simple function to get username from user.
+//additional function that takes the username from a form instead of a prompt.
+function formScromble(username) {
+  console.log(username);
+  scromble(username);
+}
+
+//form equilvalent of runScromble()
+function submitBio() {
+  let grabbedName = document.getElementById("userName").value;
+  console.log(grabbedName);
+  formScromble(grabbedName);
+  //return grabbedName;
+}
+
+//adds eventListener that waits for the user to press submit.
+document.getElementById("myButton").addEventListener('click',submitBio);
+
+//------------------------------------------------------------------------------
+
+
+//simple function to get username from user via a prompt. So archaic.
 function getUsername() {
   let name = prompt("Please enter your name:","Your Name");
   return name;
