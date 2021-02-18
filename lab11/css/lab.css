@@ -1,0 +1,190 @@
+
+/*
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+  font-family: helvetica;
+  font-size: 200%;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul {
+  text-indent: 20px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+ul a {
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left: 0px;
+  color: teal;
+  font-size: 100%;
+}
+*/
+
+#content {
+  width: auto;
+  min-height: 300px;
+  padding-left: 10px;
+  margin: 0px;
+  /*border: solid 5px grey;*/
+  font-size: 20px;
+}
+
+a {
+  text-indent: 0px;
+  margin-left: 20px;
+  color: white;
+}
+
+a {
+  font-family: helvetica;
+  text-indent: 0px;
+  margin-left: 40px;
+  color: white;
+}
+
+#output {
+  /*font-family: 'Brush Script MT', cursive;*/
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+  width: auto;
+  word-wrap: break-word;
+}
+
+button {
+  margin-left: 40px;
+  padding: 40px;
+  font-size: 16px;
+  background-color: Coral;
+  color: white;
+}
+
+form {
+  margin-left: 0px;
+  padding: 40px;
+}
+
+#myButton {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 16px;
+  background-color: goldenRod;
+  color: white;
+}
+
+#userName {
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #1c2844;
+  color: white;
+}
+
+.swag1 {
+  background-color: pink;
+  margin: 20px;
+  padding: 20px;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.swag2 {
+  background-color: aquamarine;
+  margin: 20px;
+  padding: 20px;
+  float: right;
+  font-size: 10px;
+  color: white;
+}
+
+.swag3 {
+  background-color: #bab86c;
+  margin: 80px;
+  padding: 20px;
+  font-size: 80px;
+  float: right;
+}
+
+.b1 {
+  background-color: pink;
+  padding: 50px;
+  font-size: 20;
+}
+
+.b2 {
+  background-color: cyan;
+  padding: 50px;
+  font-size: 20;
+}
+
+figcaption {
+  font-family: "helvetica";
+  text-indent: 60px;
+  margin-left: 40px;
+  //text-align: center;
+  color: white;
+  font-size: 100%;
+}
+
+pre {
+  font-family: "helvetica";
+  text-indent: 0px;
+  margin-left: 40px;
+  color: white;
+  font-size: 100%;
+}
+
+img {
+  padding: 50px;
+  float: right;
+  margin: 20px;
+  height: auto;
+  width: 500px;
+  border: 5px solid pink;
+}
+
+#images {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  /*height: auto;
+  width: 700px;*/
+}
+
+#glitched {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+h1 {
+  font-size: 250%;
+  padding-bottom: : 20px;
+  padding-top: 40px;
+  margin-top: 0;
+}
+
+
+p {
+  width: 700px;
+}
