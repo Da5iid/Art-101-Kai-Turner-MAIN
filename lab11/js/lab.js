@@ -44,9 +44,12 @@ $("#bButton2").click(function() {flipB1()});
 
 
 function flipB1() {
-  $("#bButton1").toggleClass("b1");
-}
+  $("#bButton1").toggleClass("b1");}
 
 function flipB2() {
-  $("#bButton2").toggleClass("b2");
-}
+  $("#bButton2").toggleClass("b2");}
+
+
+
+  //$("#id").append("<button id=button1>Button text!</button>");
+  //$("#button1").click(function() {"insert button code here OR function"});
