@@ -27,7 +27,7 @@ function runLoop(count) {
   for (let i = 1; i <= count; i++) {
     tempFizz = getFizz(i);
     //console.log(tempFizz);
-    $("#output").append("<p>" + tempFizz + "</p>");
+    $("#output").append("<p class=list>" + tempFizz + "</p>");
   }
 }
 

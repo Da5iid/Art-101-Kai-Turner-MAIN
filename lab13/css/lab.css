@@ -67,7 +67,7 @@ form {
 }
 
 
-#output p {
+.list {
   font-family: Georgia, serif;
   color: white;
   padding: 10px;
