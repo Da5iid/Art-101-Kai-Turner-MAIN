@@ -52,6 +52,19 @@ a {
   color: white;
 }
 
+button {
+  margin-left: 40px;
+  padding: 40px;
+  font-size: 16px;
+  background-color: Coral;
+  color: white;
+}
+
+form {
+  margin-left: 0px;
+  padding: 40px;
+}
+
 #output1 {
   font-family: Georgia, serif;
   color: white;
@@ -79,19 +92,6 @@ a {
   font-style: italic;
   width: auto;
   word-wrap: break-word;
-}
-
-button {
-  margin-left: 40px;
-  padding: 40px;
-  font-size: 16px;
-  background-color: Coral;
-  color: white;
-}
-
-form {
-  margin-left: 0px;
-  padding: 40px;
 }
 
 #button {
