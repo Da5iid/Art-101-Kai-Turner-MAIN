@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+	<meta charset="utf-8">
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 14: bugs in my house</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>
+	<script src="js/lab.js" defer></script>
 </head>
 <body>
-	<p>Nothing here yet!</p>
-</body>
+		<div id="content">
+
+			<div id= "title">
+			<h1> Lab 14: Debugging! </h1>
+				<p> The purpose of this lab was to spend a little time de-bugging some of our prior labs and making them work better!</p>
+			</div>
+
+			<h2> Challenges </h2>
+				<p> While the majority of my labs have been pretty well bug fixed, Lu's labs had a few more problems over the quarter, and so we spent some time fixing theirs.</p>
+
+			<h2> Problems </h2>
+				<p> No real problems this time around other than some pesky errors that Lu ran into with their stuff not linking. With some trial and error tho we were able to get it mostly working again.</p>
+
+			<h3> Results! </h3>
+				<p>Here's some of the de-bugging I did! Not much but this forst one was kind of game-breaking.</p>
+			</div>
+			<h3> De-Bugging: </h3>
+			<div id=outputDiv>
+				<img src="img/lab9.png"></img>
+				<p>This lab, lab 9, was my most complicated one as I spent extra time making a whole
+					interactive experience. however, there was one bug as the images that printed
+					would sometimes cover up the button that you needed to click to "cash out"...
+					So I did a little digging and found a way to make it so that the user can click "through" the images if they need to.</p>
+				<img src="img/fixedLab9.png"></img>
+				<p>Here you can see that if users log in on a web browser that is small,
+					sometimes the bitcoin will eclipse the cash out button. But now even tho
+					the bitcoin is in the way, you can still press the button through the bitcoin.</p>
+				<img src="img/fixedLab9_2.png"></img>
+				<p>This was done by adding a cool CSS tag that takes
+					away the click functionality from the image, and allows you to click
+					through it if you need to! Simple fix, but makes a big difference!
+			</div>
+		<footer>Kai Turner - 2021</footer>
+	</body>
 </html>

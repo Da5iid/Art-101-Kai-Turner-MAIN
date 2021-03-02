@@ -1,40 +1,8 @@
-/*
-h1,h2,h3,h4,h5,h6 {
-  color: white;
-  font-family: helvetica;
-  font-size: 200%;
-  text-indent: 20px;
-  margin-left: 20px;
-}
-
-p {
-  font-family: "helvetica";
-  text-indent: 20px;
-  margin-left: 20px;
-  color: lightblue;
-}
-
-ul {
-  text-indent: 20px;
-  margin-left: 20px;
-  color: lightblue;
-}
-
-ul a {
-  font-family: "helvetica";
-  text-indent: 20px;
-  margin-left: 0px;
-  color: teal;
-  font-size: 100%;
-}
-*/
-
 #content {
   width: auto;
   min-height: 300px;
   padding-left: 10px;
   margin: 0px;
-  /*border: solid 5px grey;*/
   font-size: 20px;
 }
 
