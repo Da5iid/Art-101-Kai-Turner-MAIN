@@ -1,37 +1,50 @@
-console.log("I am Linked!");
+console.log("loaded lab 2 js");
+
+var rawData;
+var complete = false;
+//$("#activate").click(function() {getAPI()});
 
 $("#activate").click(function() {getAPI()});
-//$("#button").click(function() {setUpLoop()});
-
-var output;
+// Using the core $.ajax() method
 function getAPI() {
-  output = $.ajax({
-    url: "https://api.nasa.gov/planetary/apod",
-    type: "GET",
-    data: {
-      api_key: "DEMO_KEY"
-    },
-    dataType: "ajax",
+  complete = false
+  ajax();
+}
 
-    success: function (jqXHR, textStatus, errorThrown) {
-      console.log(jqXHR, textStatus, errorThrown);
-      console.log("completed the request!")
-    },
-    failure: function (jqXHR, textStatus, errorThrown) {
-      console.log("Error:", textStatus, errorThrown);
-    },
-    complete: function(xhr, status) {
-      console.log("request is complete")
-    }
+function ajax() {
+  $.ajax({
+      url: "https://api.nasa.gov/planetary/apod",
+      data: {
+            api_key: "czpSWRrisfWEKxaDexsxWCLRB79q31NF3Mt7y3Co",
+            },
+      type: "GET",
+      dataType : "json",
+      success: function(data) {
+        rawData = data;
+        console.log(data);
+        parseJson(data);
+
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+          console.log("Error:", textStatus, errorThrown);
+      },
+      complete: function() {
+        complete = true;
+        console.log("done n done");
+      }
   })
-  //console.log(output);
+  console.log("lmao");
 }
 
-function logData(data) {
-  console.log(data);
-  console.log("completed the request!")
-}
-
-function errData(jqXHR, textStatus, errorThrown) {
-  console.log("Error:", textStatus, errorThrown);
+function parseJson(data) {
+  let imgLink = rawData.hdurl;
+  let desc = rawData.explanation;
+  let title = rawData.title;
+  let date = rawData.date;
+  console.log(imgLink);
+  console.log(desc);
+  $("#apodImage").attr("src",imgLink);
+  $("#apodDesc").html(desc);
+  $("#apodDate").html(date);
+  $("#apodTitle").html(title);
 }
