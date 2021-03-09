@@ -13,7 +13,7 @@ function getAPI() {
 
 function ajax() {
   $.ajax({
-      url: "http://xkcd.com/info.0.json",
+      url: "https://xkcd.com/info.0.json",
       data: {},
       type: "GET",
       dataType : "json",
